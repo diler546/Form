@@ -9,8 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView3"
@@ -24,6 +23,7 @@
         <TextView
             android:id="@+id/textView4"
             android:layout_width="100dp"
+            android:layout_marginStart="20dp"
             android:layout_height="wrap_content"
             android:text="ФИО"
             tools:layout_editor_absoluteX="16dp"
@@ -34,6 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:layout_marginStart="20dp"
         android:gravity="start|top"
         android:inputType="textMultiLine"
         tools:layout_editor_absoluteX="142dp"
@@ -44,6 +45,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Возраст"
+            android:layout_marginStart="20dp"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="140dp" />
 
@@ -52,6 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:layout_marginStart="20dp"
         android:inputType="textEmailAddress"
         tools:layout_editor_absoluteX="142dp"
         tools:layout_editor_absoluteY="252dp" />
@@ -61,6 +64,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Телефон"
+            android:layout_marginStart="20dp"
             tools:layout_editor_absoluteX="17dp"
             tools:layout_editor_absoluteY="210dp" />
 
@@ -69,6 +73,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:layout_marginStart="20dp"
             android:inputType="number" />
 
         <TextView
@@ -76,6 +81,7 @@
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="Электронный адрес"
+            android:layout_marginStart="20dp"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="261dp" />
 
@@ -85,6 +91,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="phone"
+        android:layout_marginStart="20dp"
         tools:layout_editor_absoluteX="142dp"
         tools:layout_editor_absoluteY="184dp" />
 
@@ -92,11 +99,13 @@
             android:id="@+id/textView9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
             android:text="Выбирите домашнее животное" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_marginStart="20dp"
             android:orientation="horizontal">
 
             <CheckBox
@@ -138,6 +147,7 @@
             android:id="@+id/textView11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
             android:text="Выбирите условия" />
 
         <RadioGroup
@@ -150,12 +160,14 @@
             android:id="@+id/radioButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
             android:text="За зарплату (ниже указать сколько)" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
             android:text="Бесплатно волонтером" />
 
     </RadioGroup>
@@ -165,6 +177,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Зарплата"
+        android:layout_marginStart="20dp"
         tools:layout_editor_absoluteX="17dp"
         tools:layout_editor_absoluteY="624dp" />
 
@@ -173,6 +186,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:layout_marginStart="20dp"
         android:inputType="number"
         tools:layout_editor_absoluteX="143dp"
         tools:layout_editor_absoluteY="114dp" />
